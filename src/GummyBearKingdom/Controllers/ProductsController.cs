@@ -31,7 +31,7 @@ namespace GummyBearKingdom.Controllers
         public IActionResult Edit(int id)
         {
             var thisProduct = db.Products.FirstOrDefault(Product => Product.ProductId == id);
-            ViewBag.ProductId = new SelectList(db.Products, "Name");
+            ViewBag.CountryId = new SelectList(db.Countries, "CountryId", "Name");
             return View(thisProduct);
         }
     }
