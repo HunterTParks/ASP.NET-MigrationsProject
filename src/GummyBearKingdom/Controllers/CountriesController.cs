@@ -41,5 +41,11 @@ namespace GummyBearKingdom.Controllers
             db.SaveChanges();
             return RedirectToAction("Index");
         }
+
+        public IActionResult Delete(int id)
+        {
+            var thisCountry = db.Countries.FirstOrDefault(Country => Country.CountryId == id);
+            return View(thisCountry);
+        }
     }
 }
