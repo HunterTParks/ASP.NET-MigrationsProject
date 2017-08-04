@@ -6,7 +6,7 @@
 <ul>
     @foreach(var product in Model)
     {
-        <li>@product.Name @Html.ActionLink("Edit", "Edit", "Products")</li>
+        <li>@product.Name @Html.ActionLink("Edit", "Edit", new { id = product.ProductId })</li>
     }
 </ul>
 

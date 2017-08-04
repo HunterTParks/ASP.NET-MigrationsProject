@@ -5,10 +5,11 @@
 
 @using (Html.BeginForm())
 {
+    <p>@Html.ValueFor(model => model.Name)</p>
     @Html.LabelFor(model => model.Name)
     @Html.EditorFor(model => model.Name)
     @Html.LabelFor(model => model.CountryId)
     @Html.DropDownList("CountryId")
 
-    <input type="submit" value="Submit"/>
+    <input type="submit" value="Save"/>
 }

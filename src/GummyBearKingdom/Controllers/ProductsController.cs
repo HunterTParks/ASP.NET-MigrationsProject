@@ -3,6 +3,7 @@ using GummyBearKingdom.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using System.Diagnostics;
 
 namespace GummyBearKingdom.Controllers
 {
@@ -39,7 +40,7 @@ namespace GummyBearKingdom.Controllers
         public IActionResult Edit(Product product)
         {
             db.Entry(product).State = EntityState.Modified;
-            db.SaveChanges();
+            
             return RedirectToAction("Index");
         }
     }
