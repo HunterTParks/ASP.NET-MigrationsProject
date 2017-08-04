@@ -1,0 +1,14 @@
+﻿@model GummyBearKingdom.Models.Country
+@{ 
+    Layout = "~/Views/_Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm())
+{
+    @Html.HiddenFor(model => model.CountryId)
+
+    @Html.LabelFor(model => model.Name)
+    @Html.EditorFor(model => model.Name)
+
+    <input type="submit" value="Save"/>
+}
