@@ -1,0 +1,12 @@
+﻿@model GummyBearKingdom.Models.Country
+@{ 
+    Layout = "~/Views/_Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm())
+{
+    @Html.LabelFor(model => model.Name)
+    @Html.TextBoxFor(model => model.Name)
+
+    <input type="submit" value="Add new Country"/>
+}
