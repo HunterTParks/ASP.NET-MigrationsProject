@@ -49,6 +49,15 @@ namespace GummyBearKingdom.Controllers
             var thisProduct = db.Products.FirstOrDefault(Product => Product.ProductId == id);
             return View(thisProduct);
         }
+
+        [HttpPost]
+        public IActionResult DeleteConfirmed(int id)
+        {
+            var thisProduct = db.Products.FirstOrDefault(Product => Products.ProductId == id);
+            db.Products.Remove(thisProduct);
+            db.SaveChanges();
+            return RedirectToAction("Index");
+        }
     }
 
 }
