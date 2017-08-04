@@ -7,8 +7,8 @@
 -debug:full
 -nostdlib
 -nologo
-"c:\users\reptar2693\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\obj\Debug\netcoreapp1.0\dotnet-compile.assemblyinfo.cs"
--out:"c:\users\reptar2693\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\bin\Debug\netcoreapp1.0\GummyBearKingdom.dll"
+"c:\Users\reptar2693\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\obj\Debug\netcoreapp1.0\dotnet-compile.assemblyinfo.cs"
+-out:"c:\Users\reptar2693\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\bin\Debug\netcoreapp1.0\GummyBearKingdom.dll"
 -r:"C:\Users\reptar2693\.nuget\packages\Microsoft.AspNetCore.Antiforgery\1.0.1\lib\netstandard1.3\Microsoft.AspNetCore.Antiforgery.dll"
 -r:"C:\Users\reptar2693\.nuget\packages\Microsoft.AspNetCore.Authorization\1.0.0\lib\netstandard1.3\Microsoft.AspNetCore.Authorization.dll"
 -r:"C:\Users\reptar2693\.nuget\packages\Microsoft.AspNetCore.Cors\1.0.0\lib\netstandard1.3\Microsoft.AspNetCore.Cors.dll"
@@ -46,6 +46,7 @@
 -r:"C:\Users\reptar2693\.nuget\packages\Microsoft.AspNetCore.Routing.Abstractions\1.0.0\lib\netstandard1.3\Microsoft.AspNetCore.Routing.Abstractions.dll"
 -r:"C:\Users\reptar2693\.nuget\packages\Microsoft.AspNetCore.Server.IISIntegration\1.0.0\lib\netstandard1.3\Microsoft.AspNetCore.Server.IISIntegration.dll"
 -r:"C:\Users\reptar2693\.nuget\packages\Microsoft.AspNetCore.Server.Kestrel\1.0.1\lib\netstandard1.3\Microsoft.AspNetCore.Server.Kestrel.dll"
+-r:"C:\Users\reptar2693\.nuget\packages\Microsoft.AspNetCore.StaticFiles\1.0.0\lib\netstandard1.3\Microsoft.AspNetCore.StaticFiles.dll"
 -r:"C:\Users\reptar2693\.nuget\packages\Microsoft.AspNetCore.WebUtilities\1.0.0\lib\netstandard1.3\Microsoft.AspNetCore.WebUtilities.dll"
 -r:"C:\Users\reptar2693\.nuget\packages\Microsoft.CodeAnalysis.Common\1.3.0\lib\netstandard1.3\Microsoft.CodeAnalysis.dll"
 -r:"C:\Users\reptar2693\.nuget\packages\Microsoft.CodeAnalysis.CSharp\1.3.0\lib\netstandard1.3\Microsoft.CodeAnalysis.CSharp.dll"
@@ -190,13 +191,13 @@
 -r:"C:\Users\reptar2693\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll"
 -r:"C:\Users\reptar2693\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll"
 -r:"C:\Users\reptar2693\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll"
--resource:"c:\users\reptar2693\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\obj\Debug\netcoreapp1.0\GummyBearKingdomdotnet-compile.deps.json",GummyBearKingdom.deps.json
-"c:\users\reptar2693\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Program.cs"
-"c:\users\reptar2693\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Startup.cs"
-"c:\users\reptar2693\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Controllers\HomeController.cs"
-"c:\users\reptar2693\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Migrations\20170804155951_Initial.cs"
-"c:\users\reptar2693\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Migrations\20170804155951_Initial.Designer.cs"
-"c:\users\reptar2693\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Migrations\GMDbContextModelSnapshot.cs"
-"c:\users\reptar2693\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Models\Country.cs"
-"c:\users\reptar2693\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Models\GMDbContext.cs"
-"c:\users\reptar2693\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Models\Product.cs"
+-resource:"c:\Users\reptar2693\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\obj\Debug\netcoreapp1.0\GummyBearKingdomdotnet-compile.deps.json",GummyBearKingdom.deps.json
+"c:\Users\reptar2693\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Program.cs"
+"c:\Users\reptar2693\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Startup.cs"
+"c:\Users\reptar2693\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Controllers\HomeController.cs"
+"c:\Users\reptar2693\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Migrations\20170804155951_Initial.cs"
+"c:\Users\reptar2693\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Migrations\20170804155951_Initial.Designer.cs"
+"c:\Users\reptar2693\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Migrations\GMDbContextModelSnapshot.cs"
+"c:\Users\reptar2693\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Models\Country.cs"
+"c:\Users\reptar2693\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Models\GMDbContext.cs"
+"c:\Users\reptar2693\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Models\Product.cs"
