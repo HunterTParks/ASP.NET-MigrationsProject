@@ -33,5 +33,13 @@ namespace GummyBearKingdom.Controllers
             ViewBag.CountryId = new SelectList(db.Countries, "Name");
             return View(thisCountry);
         }
+
+        [HttpPost]
+        public IActionResult Edit(Country country)
+        {
+            db.Entry(country).State = EntityState.Modified;
+            db.SaveChanges();
+            return RedirectToAction("Index");
+        }
     }
 }
