@@ -15,6 +15,12 @@ namespace GummyBearKingdom.Controllers
             return View(db.Products.ToList());
         }
 
+        public IActionResult Details(int id)
+        {
+            var thisProduct = db.Products.FirstOrDefault(Product => Product.ProductId == id);
+            return View(thisProduct);
+        }
+
         public IActionResult Create()
         {
             ViewBag.CountryId = new SelectList(db.Countries, "CountryId", "Name");

@@ -7,7 +7,7 @@
 <ul>
     @foreach(var country in Model)
     {
-        <li>@Html.ActionLink(@country.Name, "Details", "Countries") @Html.ActionLink("Edit", "Edit", new { id = country.CountryId }) @Html.ActionLink("Delete", "Delete", new { id = country.CountryId }) </li>
+        <li>@country.Name @Html.ActionLink("Edit", "Edit", new { id = country.CountryId }) @Html.ActionLink("Delete", "Delete", new { id = country.CountryId }) </li>
     }
 </ul>
 
