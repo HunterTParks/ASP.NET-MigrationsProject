@@ -28,7 +28,7 @@ namespace GummyBearKingdom
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddEntityFramework()
-                .AddDbContext<GBDbContext>(options => options.UseSqlServer(Configuration["ConnectionStrings:DefaultConnection"]));
+                .AddDbContext<GMDbContext>(options => options.UseSqlServer(Configuration["ConnectionStrings:DefaultConnection"]));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
