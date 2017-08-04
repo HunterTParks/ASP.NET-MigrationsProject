@@ -1,14 +1,16 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using GummyBearKingdom.Models;
 using Microsoft.EntityFrameworkCore;
+using System.Linq;
 
 namespace GummyBearKingdom.Controllers
 {
     public class CountriesController : Controller
     {
-        public IActionResult Index(DbSet<Country> Countries)
+        private GMDbContext db = new GMDbContext();
+        public IActionResult Index()
         {
-            return View(Countries);
+            return View(db.Countries.ToList());
         }
     }
 }

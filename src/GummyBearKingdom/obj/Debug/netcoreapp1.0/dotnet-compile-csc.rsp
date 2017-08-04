@@ -194,6 +194,7 @@
 -resource:"c:\Users\reptar2693\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\obj\Debug\netcoreapp1.0\GummyBearKingdomdotnet-compile.deps.json",GummyBearKingdom.deps.json
 "c:\Users\reptar2693\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Program.cs"
 "c:\Users\reptar2693\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Startup.cs"
+"c:\Users\reptar2693\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Controllers\CountriesController.cs"
 "c:\Users\reptar2693\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Controllers\HomeController.cs"
 "c:\Users\reptar2693\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Migrations\20170804155951_Initial.cs"
 "c:\Users\reptar2693\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Migrations\20170804155951_Initial.Designer.cs"
