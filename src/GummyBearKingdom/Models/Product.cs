@@ -8,9 +8,9 @@ namespace GummyBearKingdom.Models
     public class Product
     {
         [Key]
-        public int ProductId;
-        public string Name;
-        public int CountryId;
+        public int ProductId { get; set; }
+        public string Name { get; set; }
+        public int CountryId { get; set; }
         public virtual Country Country { get; set; }
     }
 }
