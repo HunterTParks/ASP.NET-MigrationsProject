@@ -50,7 +50,7 @@ namespace GummyBearKingdom.Controllers
             return View(thisProduct);
         }
 
-        [HttpPost]
+        [HttpPost, ActionName("Delete")]
         public IActionResult DeleteConfirmed(int id)
         {
             var thisProduct = db.Products.FirstOrDefault(Product => Product.ProductId == id);
