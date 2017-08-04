@@ -1,3 +1,11 @@
 ﻿@{ 
     Layout = "~/Views/_Shared/_Layout.cshtml";
 }
+
+<ul>
+    @foreach(var country in Model)
+    {
+        <li>@country</li>
+
+    }
+</ul>
