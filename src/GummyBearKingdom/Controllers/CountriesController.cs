@@ -1,16 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+using GummyBearKingdom.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace GummyBearKingdom.Controllers
 {
     public class CountriesController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Index(DbSet<Country> Countries)
         {
-            return View();
+            return View(Countries);
         }
     }
 }
