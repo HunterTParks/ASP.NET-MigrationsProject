@@ -1,5 +1,5 @@
---temp-output:C:\Users\reptar2693\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\obj\Debug\netcoreapp1.0\
---out:C:\Users\reptar2693\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\bin\Debug\netcoreapp1.0\GummyBearKingdom.dll
+--temp-output:c:\users\reptar2693\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\obj\Debug\netcoreapp1.0\
+--out:c:\users\reptar2693\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\bin\Debug\netcoreapp1.0\GummyBearKingdom.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -159,12 +159,13 @@
 --reference:C:\Users\reptar2693\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\reptar2693\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\reptar2693\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
---resource:"C:\Users\reptar2693\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\obj\Debug\netcoreapp1.0\GummyBearKingdomdotnet-compile.deps.json",GummyBearKingdom.deps.json
-C:\Users\reptar2693\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Program.cs
-C:\Users\reptar2693\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Startup.cs
-C:\Users\reptar2693\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Migrations\20170804155951_Initial.cs
-C:\Users\reptar2693\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Migrations\20170804155951_Initial.Designer.cs
-C:\Users\reptar2693\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Migrations\GMDbContextModelSnapshot.cs
-C:\Users\reptar2693\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Models\Country.cs
-C:\Users\reptar2693\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Models\GMDbContext.cs
-C:\Users\reptar2693\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Models\Product.cs
+--resource:"c:\users\reptar2693\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\obj\Debug\netcoreapp1.0\GummyBearKingdomdotnet-compile.deps.json",GummyBearKingdom.deps.json
+c:\users\reptar2693\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Program.cs
+c:\users\reptar2693\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Startup.cs
+c:\users\reptar2693\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Controllers\HomeController.cs
+c:\users\reptar2693\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Migrations\20170804155951_Initial.cs
+c:\users\reptar2693\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Migrations\20170804155951_Initial.Designer.cs
+c:\users\reptar2693\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Migrations\GMDbContextModelSnapshot.cs
+c:\users\reptar2693\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Models\Country.cs
+c:\users\reptar2693\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Models\GMDbContext.cs
+c:\users\reptar2693\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Models\Product.cs
