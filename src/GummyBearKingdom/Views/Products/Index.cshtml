@@ -6,7 +6,7 @@
 <ul>
     @foreach(var product in Model)
     {
-        <li>@product.Name</li>
+        <li>@product.Name @Html.ActionLink("Edit", "Edit", "Products")</li>
     }
 </ul>
 
