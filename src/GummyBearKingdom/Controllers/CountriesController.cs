@@ -47,5 +47,14 @@ namespace GummyBearKingdom.Controllers
             var thisCountry = db.Countries.FirstOrDefault(Country => Country.CountryId == id);
             return View(thisCountry);
         }
+
+        [HttpPost, ActionName("Delete")]
+        public IActionResult DeleteConfirmed(int id)
+        {
+            var thisCountry = db.Countries.FirstOrDefault(Country => Country.CountryId == id);
+            db.Countries.Remove(thisCountry);
+            db.SaveChanges();
+            return RedirectToAction("Index");
+        }
     }
 }
