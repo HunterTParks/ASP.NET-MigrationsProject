@@ -2,7 +2,11 @@
     Layout = "~/Views/_Shared/_Layout.cshtml";
 }
 
+@model IEnumerable<GummyBearKingdom.Models.Country>
+
 <ul>
     @foreach(var country in Model)
-        <li>@country</li>
+    {
+        <li>@country.Name</li>
+    }
 </ul>
