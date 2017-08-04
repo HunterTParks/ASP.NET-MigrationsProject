@@ -3,6 +3,7 @@ using GummyBearKingdom.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using System.Collections.Generic;
 
 namespace GummyBearKingdom.Controllers
 {
@@ -25,13 +26,6 @@ namespace GummyBearKingdom.Controllers
             db.Countries.Add(country);
             db.SaveChanges();
             return RedirectToAction("Index");
-        }
-
-        public IActionResult Details(int id)
-        {
-            var thisCountry = db.Countries.FirstOrDefault(Country => Country.CountryId == id);
-            ViewBag.ProductFromCountries = new SelectList(db.Products, "Name");
-            return View(thisCountry);
         }
 
         public IActionResult Edit(int id)
