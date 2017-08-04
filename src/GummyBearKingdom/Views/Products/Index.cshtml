@@ -6,7 +6,7 @@
 <ul>
     @foreach(var product in Model)
     {
-        <li>@product.Name @Html.ActionLink("Edit", "Edit", new { id = product.ProductId }) @Html.ActionLink("Delete", "Delete", new { id = product.ProductId })</li>
+        <li>@Html.ActionLink(@product.Name, "Details", new { id = product.ProductId }):  @Html.ActionLink("Edit", "Edit", new { id = product.ProductId }) @Html.ActionLink("Delete", "Delete", new { id = product.ProductId })</li>
     }
 </ul>
 
