@@ -158,6 +158,9 @@
 -resource:"C:\Users\reptar2693\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\obj\Debug\netcoreapp1.0\GummyBearKingdomdotnet-compile.deps.json",GummyBearKingdom.deps.json
 "C:\Users\reptar2693\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Program.cs"
 "C:\Users\reptar2693\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Startup.cs"
+"C:\Users\reptar2693\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Migrations\20170804155951_Initial.cs"
+"C:\Users\reptar2693\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Migrations\20170804155951_Initial.Designer.cs"
+"C:\Users\reptar2693\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Migrations\GMDbContextModelSnapshot.cs"
 "C:\Users\reptar2693\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Models\Country.cs"
 "C:\Users\reptar2693\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Models\GMDbContext.cs"
 "C:\Users\reptar2693\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Models\Product.cs"
