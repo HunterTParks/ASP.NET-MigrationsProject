@@ -27,10 +27,11 @@ namespace GummyBearKingdom.Controllers
             return RedirectToAction("Index");
         }
 
-        public IActionResult Details()
+        public IActionResult Details(int id)
         {
+            var thisCountry = db.Countries.FirstOrDefault(Country => Country.CountryId == id);
             ViewBag.ProductFromCountries = new SelectList(db.Products, "Name");
-            return View(ViewBag);
+            return View(thisCountry);
         }
 
         public IActionResult Edit(int id)
