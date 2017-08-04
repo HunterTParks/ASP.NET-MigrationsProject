@@ -16,6 +16,7 @@ namespace GummyBearKingdom.Controllers
 
         public IActionResult Create()
         {
+            ViewBag.CountryId = new SelectList(db.Countries, "CountryId", "Name");
             return View();
         }
     }
