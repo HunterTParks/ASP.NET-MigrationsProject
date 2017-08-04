@@ -12,5 +12,10 @@ namespace GummyBearKingdom.Controllers
         {
             return View(db.Countries.ToList());
         }
+
+        public IActionResult Create()
+        {
+            return View();
+        }
     }
 }
