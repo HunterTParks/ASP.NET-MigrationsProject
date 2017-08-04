@@ -1,0 +1,14 @@
+﻿@model GummyBearKingdom.Models.Products
+@{ 
+    Layout = "~/Views/_Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm())
+{
+    @Html.LabelFor(model => model.Name)
+    @Html.EditorFor(model => model.Name)
+    @Html.LabelFor(model => model.CountryId)
+    @Html.DropDownList("CountryId")
+
+    <input type="submit" value="Submit"/>
+}
