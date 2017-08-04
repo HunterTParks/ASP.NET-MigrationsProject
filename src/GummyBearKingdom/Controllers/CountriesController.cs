@@ -17,5 +17,13 @@ namespace GummyBearKingdom.Controllers
         {
             return View();
         }
+
+        [HttpPost]
+        public IActionResult Create(Country country)
+        {
+            db.Countries.Add(country);
+            db.SaveChanges();
+            return RedirectToAction("Index");
+        }
     }
 }
