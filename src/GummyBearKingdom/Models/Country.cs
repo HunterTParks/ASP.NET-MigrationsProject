@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace GummyBearKingdom.Models
 {
-    [Table("Country")]
+    [Table("Countries")]
     public class Country
     {
         [Key]
