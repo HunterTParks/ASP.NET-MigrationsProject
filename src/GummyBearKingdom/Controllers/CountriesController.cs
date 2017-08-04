@@ -27,6 +27,12 @@ namespace GummyBearKingdom.Controllers
             return RedirectToAction("Index");
         }
 
+        public IActionResult Details()
+        {
+            ViewBag.ProductFromCountries = new SelectList(db.Products, "Name");
+            return View(ViewBag);
+        }
+
         public IActionResult Edit(int id)
         {
             var thisCountry = db.Countries.FirstOrDefault(Country => Country.CountryId == id);
