@@ -4,11 +4,17 @@
 
 @model IEnumerable<GummyBearKingdom.Models.Country>
 
-<ul>
+
+<div class="country-box">
+
     @foreach(var country in Model)
     {
-        <li>@country.Name @Html.ActionLink("Edit", "Edit", new { id = country.CountryId }) @Html.ActionLink("Delete", "Delete", new { id = country.CountryId }) </li>
+        <div class="box">
+        <p>@country.Name @Html.ActionLink("Edit", "Edit", new { id = country.CountryId }) @Html.ActionLink("Delete", "Delete", new { id = country.CountryId }) </p>
+        </div>
     }
-</ul>
+</div>
+
 
 <p>@Html.ActionLink("Add new Country", "Create")</p>
+<p>@Html.ActionLink("Accordion", "Index", "Accordion")</p>

@@ -19,7 +19,7 @@ namespace GummyBearKingdom.Models
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
-            options.UseSqlServer(@"Server=GAMING-PC;Database=GummyBearKingdom;integrated security=True");
+            options.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=GummyBearKingdom;integrated security=True");
         }
 
         public GMDbContext(DbContextOptions<GMDbContext> options)
