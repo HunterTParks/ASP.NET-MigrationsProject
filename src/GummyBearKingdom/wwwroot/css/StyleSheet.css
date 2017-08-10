@@ -120,7 +120,8 @@ h1{
 	width: 60%;
 }
 .accordion ul:hover li:hover a{
-	background: rgba(0, 0, 0, 0.4);
+	background: rgba(0, 0, 0, 0.7);
+    /*background-color: black;*/
 }
 .accordion ul:hover li:hover a *{
 	opacity: 1;
