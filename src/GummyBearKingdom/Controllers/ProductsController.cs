@@ -24,7 +24,7 @@ namespace GummyBearKingdom.Controllers
 
         public IActionResult Create()
         {
-            ViewBag.CountryId = new SelectList(db.Countries, "CountryId", "Name");
+            ViewBag.CountryId = new SelectList(db.Countries, "CountryId", "Name").ToList();
             return View();
         }
 
