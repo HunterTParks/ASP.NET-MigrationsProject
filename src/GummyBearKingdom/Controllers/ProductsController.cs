@@ -1,9 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using GummyBearKingdom.Models;
+using GummyBearKingdom.ViewModels;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using System.Diagnostics;
+using System;
+using System.Collections.Generic;
 
 namespace GummyBearKingdom.Controllers
 {
