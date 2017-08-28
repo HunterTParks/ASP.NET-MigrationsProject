@@ -1,14 +1,21 @@
-﻿@model GummyBearKingdom.Models.Product
-@{ 
+﻿@model GummyBearKingdom.ViewModels.Countries
+@{
     Layout = "~/Views/_Shared/_Layout.cshtml";
 }
 
 @using (Html.BeginForm())
 {
-    @Html.LabelFor(model => model.Name)
-    @Html.TextBoxFor(model => model.Name)
-    @Html.LabelFor(model => model.CountryId)
-    @Html.DropDownList("CountryId")
+    if(Model.listOfCountry.Count == 0)
+    {
+        <p>There are no Countries! Please create a country</p>
+    }
+    else
+    {
+        @Html.LabelFor(model => model.product.Name)
+        @Html.TextBoxFor(model => model.product.Name)
+        @Html.LabelFor(model => model.product.CountryId)
+        @Html.DropDownList("CountryId")
 
-    <input type="submit" value="Add new Product"/>
+        <input type="submit" value="Add new Product" />
+    }
 }

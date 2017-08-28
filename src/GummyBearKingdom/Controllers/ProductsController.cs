@@ -1,9 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using GummyBearKingdom.Models;
+using GummyBearKingdom.ViewModels;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using System.Diagnostics;
+using System;
+using System.Collections.Generic;
 
 namespace GummyBearKingdom.Controllers
 {
@@ -25,7 +27,15 @@ namespace GummyBearKingdom.Controllers
         public IActionResult Create()
         {
             ViewBag.CountryId = new SelectList(db.Countries, "CountryId", "Name");
-            return View();
+            Countries newCountry = new Countries();
+            newCountry.listOfCountry = new List<Country> { };
+            newCountry.listOfCountry = db.Countries.ToList();
+            newCountry.product = new Product();
+            foreach (var country in db.Countries.ToList())
+            {
+                Console.WriteLine(country.Name);
+            }
+            return View(newCountry);
         }
 
         [HttpPost]
