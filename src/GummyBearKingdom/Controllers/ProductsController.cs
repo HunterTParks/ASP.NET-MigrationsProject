@@ -26,16 +26,8 @@ namespace GummyBearKingdom.Controllers
 
         public IActionResult Create()
         {
-            ViewBag.CountryId = new SelectList(db.Countries, "CountryId", "Name");
-            Countries newCountry = new Countries();
-            newCountry.listOfCountry = new List<Country> { };
-            newCountry.listOfCountry = db.Countries.ToList();
-            newCountry.product = new Product();
-            foreach (var country in db.Countries.ToList())
-            {
-                Console.WriteLine(country.Name);
-            }
-            return View(newCountry);
+            ViewBag.CountryId = new SelectList(db.Countries, "CountryId", "Name").ToList();
+            return View();
         }
 
         [HttpPost]
